@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1100px;
+    min-height: fit-content;
+    margin: 0 auto;
+    border: 25px solid #000;
+}
+.main_img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    min-height: 500px;
+    border: 1px solid #000;
+}
+.top_img {
+    display: flex;
+    justify-content: baseline;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(186, 239, 255);
+}
+.road_img {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(206, 206, 206);
+}
+.bot_img {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(21, 255, 0);
+}
+.lighter_top_auto {
+    background-color: rgb(170, 170, 170);
+   padding-left: 10px;
+    width: 70px;
+    height: 170px;
+    border: 1px solid #000;
+    border-radius: 7px;
+
+}
+.circle {
+    
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 100%;
+    margin: 3px;
+
+}
+.red {
+    background-color: #ff0000;
+}
+.yellow {
+    background-color: rgb(255, 255, 0);
+
+}
+.green {
+    background-color: rgb(0, 255, 0);
+}
+.white {
+    background-color: #FFF;
+}
+.small {
+    transform: scale(0.5);
+    margin-left: 300px;
+}
+.background_top {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.tube_top_small {
+    width: 9px;
+    height: 140px;
+    background-color: #000;
+    margin-top: 7px;
+    margin-left: 24px;
+}
+
+.background_road {
+    
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 30px;
+}
+.road_stripes {
+    margin-top: 100px;
+    width: 100px;
+    height: 5px;
+    
+    
+}
+.pedastrian_stripes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 200px;
+    height: auto;
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+
+}
+.pedastrian_stripe {
+
+    width: 100%;
+    height: 30px;
+    
+}
+.pedastrian {
+    height: 115px;
+    margin-top: 42px;
+}
+.mini_img_lighter_top_auto {
+    margin-left: 50px;
+}
+.lighter_top_auto pedastrian .small {
+    position: relative;
+}
+#btn {
+    position: absolute;
+    background-color: rgb(255, 255, 0);
+    width: 50px;
+    height: 70px;
+    top: 150px;
+    left: 14px;
+}
+#btn:hover {
+    cursor: pointer;
+}
+#btn:active {
+    transition: 1s all ease;
+    background-color: rgb(255, 0, 76);
+}
+#btn:focus {
+    transition: 0.3s all ease;
+}
+
+.btn_stripes {
+    position: relative;
+    display: flex;
+   
+    background-color: #000;
+    flex-wrap: wrap;
+}
+.str1 {
+    position: absolute;
+    top: -70px;
+    left: 14px;
+    width: 40%;
+    height: 2px;
+    background-color: #000;
+}
+.str1:hover {
+    cursor: pointer;
+}
+.active {
+    opacity: 1;
+
+}
+.no_active {
+    opacity: 0.1;
+}
+#countdown {
+    padding-top: 20px;
+    font-size: 40px;
+    text-align: center;
+    
+}
